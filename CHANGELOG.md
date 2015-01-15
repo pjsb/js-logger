@@ -1,3 +1,6 @@
+## 1.2.1 (27 April, 2016)
+  - Logger.addHandler to add more than one target
+
 ## 1.2.0 (10 September, 2015)
   - Support for custom message formatter in Logger.useDefaults()
 	- Logger.useDefaults() now expects a hash instead of a logLevel.

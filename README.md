@@ -65,6 +65,14 @@ Logger.useDefaults({
 	}
 })
 ```
+### Additional loggers
+  It is also possible to add additional logger to existing ones. So logs can be send to console, to a remote logger or whatever.
+
+```js
+Logger.addHandler(function (messages, context) {
+	// Log to local file system of no connection is available
+});
+```
 
 ## Named Loggers
 Okay, let's get serious, logging is not for kids, it's for adults with serious software to write and mission critical log messages to trawl through.  To help you in your goal, js-Logger provides 'named' loggers which can be configured individual with their own contexts.
